@@ -15,7 +15,8 @@ public class Main {
         }
 
         // run a for loop
-        for (int element : arr) {
+        for (int i = 0; i < arr.length; i++) {
+            int element = arr[i];
             if (element == target) {
                 return true;
             }
